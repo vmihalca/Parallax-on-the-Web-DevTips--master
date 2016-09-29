@@ -1,0 +1,1156 @@
+@charset "UTF-8";
+/*! normalize.css v3.0.2 | MIT License | git.io/normalize */
+/**
+ * 1. Set default font family to sans-serif.
+ * 2. Prevent iOS text size adjust after orientation change, without disabling
+ *    user zoom.
+ */
+/* line 9, C:/Users/vladmihalca/Downloads/Parallax-on-the-Web-DevTips--master/css/normalize.scss */
+html {
+  font-family: sans-serif;
+  /* 1 */
+  -ms-text-size-adjust: 100%;
+  /* 2 */
+  -webkit-text-size-adjust: 100%;
+  /* 2 */ }
+
+/**
+ * Remove default margin.
+ */
+/* line 19, C:/Users/vladmihalca/Downloads/Parallax-on-the-Web-DevTips--master/css/normalize.scss */
+body {
+  margin: 0; }
+
+/* HTML5 display definitions
+   ========================================================================== */
+/**
+ * Correct `block` display not defined for any HTML5 element in IE 8/9.
+ * Correct `block` display not defined for `details` or `summary` in IE 10/11
+ * and Firefox.
+ * Correct `block` display not defined for `main` in IE 11.
+ */
+/* line 45, C:/Users/vladmihalca/Downloads/Parallax-on-the-Web-DevTips--master/css/normalize.scss */
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+main,
+menu,
+nav,
+section,
+summary {
+  display: block; }
+
+/**
+ * 1. Correct `inline-block` display not defined in IE 8/9.
+ * 2. Normalize vertical alignment of `progress` in Chrome, Firefox, and Opera.
+ */
+/* line 57, C:/Users/vladmihalca/Downloads/Parallax-on-the-Web-DevTips--master/css/normalize.scss */
+audio,
+canvas,
+progress,
+video {
+  display: inline-block;
+  /* 1 */
+  vertical-align: baseline;
+  /* 2 */ }
+
+/**
+ * Prevent modern browsers from displaying `audio` without controls.
+ * Remove excess height in iOS 5 devices.
+ */
+/* line 67, C:/Users/vladmihalca/Downloads/Parallax-on-the-Web-DevTips--master/css/normalize.scss */
+audio:not([controls]) {
+  display: none;
+  height: 0; }
+
+/**
+ * Address `[hidden]` styling not present in IE 8/9/10.
+ * Hide the `template` element in IE 8/9/11, Safari, and Firefox < 22.
+ */
+/* line 78, C:/Users/vladmihalca/Downloads/Parallax-on-the-Web-DevTips--master/css/normalize.scss */
+[hidden],
+template {
+  display: none; }
+
+/* Links
+   ========================================================================== */
+/**
+ * Remove the gray background color from active links in IE 10.
+ */
+/* line 89, C:/Users/vladmihalca/Downloads/Parallax-on-the-Web-DevTips--master/css/normalize.scss */
+a {
+  background-color: transparent; }
+
+/**
+ * Improve readability when focused and also mouse hovered in all browsers.
+ */
+/* line 98, C:/Users/vladmihalca/Downloads/Parallax-on-the-Web-DevTips--master/css/normalize.scss */
+a:active,
+a:hover {
+  outline: 0; }
+
+/* Text-level semantics
+   ========================================================================== */
+/**
+ * Address styling not present in IE 8/9/10/11, Safari, and Chrome.
+ */
+/* line 109, C:/Users/vladmihalca/Downloads/Parallax-on-the-Web-DevTips--master/css/normalize.scss */
+abbr[title] {
+  border-bottom: 1px dotted; }
+
+/**
+ * Address style set to `bolder` in Firefox 4+, Safari, and Chrome.
+ */
+/* line 118, C:/Users/vladmihalca/Downloads/Parallax-on-the-Web-DevTips--master/css/normalize.scss */
+b,
+strong {
+  font-weight: bold; }
+
+/**
+ * Address styling not present in Safari and Chrome.
+ */
+/* line 126, C:/Users/vladmihalca/Downloads/Parallax-on-the-Web-DevTips--master/css/normalize.scss */
+dfn {
+  font-style: italic; }
+
+/**
+ * Address variable `h1` font-size and margin within `section` and `article`
+ * contexts in Firefox 4+, Safari, and Chrome.
+ */
+/* line 135, C:/Users/vladmihalca/Downloads/Parallax-on-the-Web-DevTips--master/css/normalize.scss */
+h1 {
+  font-size: 2em;
+  margin: 0.67em 0; }
+
+/**
+ * Address styling not present in IE 8/9.
+ */
+/* line 144, C:/Users/vladmihalca/Downloads/Parallax-on-the-Web-DevTips--master/css/normalize.scss */
+mark {
+  background: #ff0;
+  color: #000; }
+
+/**
+ * Address inconsistent and variable font size in all browsers.
+ */
+/* line 153, C:/Users/vladmihalca/Downloads/Parallax-on-the-Web-DevTips--master/css/normalize.scss */
+small {
+  font-size: 80%; }
+
+/**
+ * Prevent `sub` and `sup` affecting `line-height` in all browsers.
+ */
+/* line 162, C:/Users/vladmihalca/Downloads/Parallax-on-the-Web-DevTips--master/css/normalize.scss */
+sub,
+sup {
+  font-size: 75%;
+  line-height: 0;
+  position: relative;
+  vertical-align: baseline; }
+
+/* line 169, C:/Users/vladmihalca/Downloads/Parallax-on-the-Web-DevTips--master/css/normalize.scss */
+sup {
+  top: -0.5em; }
+
+/* line 173, C:/Users/vladmihalca/Downloads/Parallax-on-the-Web-DevTips--master/css/normalize.scss */
+sub {
+  bottom: -0.25em; }
+
+/* Embedded content
+   ========================================================================== */
+/**
+ * Remove border when inside `a` element in IE 8/9/10.
+ */
+/* line 184, C:/Users/vladmihalca/Downloads/Parallax-on-the-Web-DevTips--master/css/normalize.scss */
+img {
+  border: 0; }
+
+/**
+ * Correct overflow not hidden in IE 9/10/11.
+ */
+/* line 192, C:/Users/vladmihalca/Downloads/Parallax-on-the-Web-DevTips--master/css/normalize.scss */
+svg:not(:root) {
+  overflow: hidden; }
+
+/* Grouping content
+   ========================================================================== */
+/**
+ * Address margin not present in IE 8/9 and Safari.
+ */
+/* line 203, C:/Users/vladmihalca/Downloads/Parallax-on-the-Web-DevTips--master/css/normalize.scss */
+figure {
+  margin: 1em 40px; }
+
+/**
+ * Address differences between Firefox and other browsers.
+ */
+/* line 211, C:/Users/vladmihalca/Downloads/Parallax-on-the-Web-DevTips--master/css/normalize.scss */
+hr {
+  -moz-box-sizing: content-box;
+  box-sizing: content-box;
+  height: 0; }
+
+/**
+ * Contain overflow in all browsers.
+ */
+/* line 221, C:/Users/vladmihalca/Downloads/Parallax-on-the-Web-DevTips--master/css/normalize.scss */
+pre {
+  overflow: auto; }
+
+/**
+ * Address odd `em`-unit font size rendering in all browsers.
+ */
+/* line 232, C:/Users/vladmihalca/Downloads/Parallax-on-the-Web-DevTips--master/css/normalize.scss */
+code,
+kbd,
+pre,
+samp {
+  font-family: monospace, monospace;
+  font-size: 1em; }
+
+/* Forms
+   ========================================================================== */
+/**
+ * Known limitation: by default, Chrome and Safari on OS X allow very limited
+ * styling of `select`, unless a `border` property is set.
+ */
+/**
+ * 1. Correct color not being inherited.
+ *    Known issue: affects color of disabled elements.
+ * 2. Correct font properties not being inherited.
+ * 3. Address margins set differently in Firefox 4+, Safari, and Chrome.
+ */
+/* line 256, C:/Users/vladmihalca/Downloads/Parallax-on-the-Web-DevTips--master/css/normalize.scss */
+button,
+input,
+optgroup,
+select,
+textarea {
+  color: inherit;
+  /* 1 */
+  font: inherit;
+  /* 2 */
+  margin: 0;
+  /* 3 */ }
+
+/**
+ * Address `overflow` set to `hidden` in IE 8/9/10/11.
+ */
+/* line 266, C:/Users/vladmihalca/Downloads/Parallax-on-the-Web-DevTips--master/css/normalize.scss */
+button {
+  overflow: visible; }
+
+/**
+ * Address inconsistent `text-transform` inheritance for `button` and `select`.
+ * All other form control elements do not inherit `text-transform` values.
+ * Correct `button` style inheritance in Firefox, IE 8/9/10/11, and Opera.
+ * Correct `select` style inheritance in Firefox.
+ */
+/* line 278, C:/Users/vladmihalca/Downloads/Parallax-on-the-Web-DevTips--master/css/normalize.scss */
+button,
+select {
+  text-transform: none; }
+
+/**
+ * 1. Avoid the WebKit bug in Android 4.0.* where (2) destroys native `audio`
+ *    and `video` controls.
+ * 2. Correct inability to style clickable `input` types in iOS.
+ * 3. Improve usability and consistency of cursor style between image-type
+ *    `input` and others.
+ */
+/* line 293, C:/Users/vladmihalca/Downloads/Parallax-on-the-Web-DevTips--master/css/normalize.scss */
+button,
+html input[type="button"], input[type="reset"],
+input[type="submit"] {
+  -webkit-appearance: button;
+  /* 2 */
+  cursor: pointer;
+  /* 3 */ }
+
+/**
+ * Re-set default cursor for disabled elements.
+ */
+/* line 303, C:/Users/vladmihalca/Downloads/Parallax-on-the-Web-DevTips--master/css/normalize.scss */
+button[disabled],
+html input[disabled] {
+  cursor: default; }
+
+/**
+ * Remove inner padding and border in Firefox 4+.
+ */
+/* line 312, C:/Users/vladmihalca/Downloads/Parallax-on-the-Web-DevTips--master/css/normalize.scss */
+button::-moz-focus-inner,
+input::-moz-focus-inner {
+  border: 0;
+  padding: 0; }
+
+/**
+ * Address Firefox 4+ setting `line-height` on `input` using `!important` in
+ * the UA stylesheet.
+ */
+/* line 322, C:/Users/vladmihalca/Downloads/Parallax-on-the-Web-DevTips--master/css/normalize.scss */
+input {
+  line-height: normal; }
+
+/**
+ * It's recommended that you don't attempt to style these elements.
+ * Firefox's implementation doesn't respect box-sizing, padding, or width.
+ *
+ * 1. Address box sizing set to `content-box` in IE 8/9/10.
+ * 2. Remove excess padding in IE 8/9/10.
+ */
+/* line 335, C:/Users/vladmihalca/Downloads/Parallax-on-the-Web-DevTips--master/css/normalize.scss */
+input[type="checkbox"],
+input[type="radio"] {
+  box-sizing: border-box;
+  /* 1 */
+  padding: 0;
+  /* 2 */ }
+
+/**
+ * Fix the cursor style for Chrome's increment/decrement buttons. For certain
+ * `font-size` values of the `input`, it causes the cursor style of the
+ * decrement button to change from `default` to `text`.
+ */
+/* line 347, C:/Users/vladmihalca/Downloads/Parallax-on-the-Web-DevTips--master/css/normalize.scss */
+input[type="number"]::-webkit-inner-spin-button,
+input[type="number"]::-webkit-outer-spin-button {
+  height: auto; }
+
+/**
+ * 1. Address `appearance` set to `searchfield` in Safari and Chrome.
+ * 2. Address `box-sizing` set to `border-box` in Safari and Chrome
+ *    (include `-moz` to future-proof).
+ */
+/* line 357, C:/Users/vladmihalca/Downloads/Parallax-on-the-Web-DevTips--master/css/normalize.scss */
+input[type="search"] {
+  -webkit-appearance: textfield;
+  /* 1 */
+  -moz-box-sizing: content-box;
+  -webkit-box-sizing: content-box;
+  /* 2 */
+  box-sizing: content-box; }
+
+/**
+ * Remove inner padding and search cancel button in Safari and Chrome on OS X.
+ * Safari (but not Chrome) clips the cancel button when the search input has
+ * padding (and `textfield` appearance).
+ */
+/* line 371, C:/Users/vladmihalca/Downloads/Parallax-on-the-Web-DevTips--master/css/normalize.scss */
+input[type="search"]::-webkit-search-cancel-button,
+input[type="search"]::-webkit-search-decoration {
+  -webkit-appearance: none; }
+
+/**
+ * Define consistent border, margin, and padding.
+ */
+/* line 379, C:/Users/vladmihalca/Downloads/Parallax-on-the-Web-DevTips--master/css/normalize.scss */
+fieldset {
+  border: 1px solid #c0c0c0;
+  margin: 0 2px;
+  padding: 0.35em 0.625em 0.75em; }
+
+/**
+ * 1. Correct `color` not being inherited in IE 8/9/10/11.
+ * 2. Remove padding so people aren't caught out if they zero out fieldsets.
+ */
+/* line 390, C:/Users/vladmihalca/Downloads/Parallax-on-the-Web-DevTips--master/css/normalize.scss */
+legend {
+  border: 0;
+  /* 1 */
+  padding: 0;
+  /* 2 */ }
+
+/**
+ * Remove default vertical scrollbar in IE 8/9/10/11.
+ */
+/* line 399, C:/Users/vladmihalca/Downloads/Parallax-on-the-Web-DevTips--master/css/normalize.scss */
+textarea {
+  overflow: auto; }
+
+/**
+ * Don't inherit the `font-weight` (applied by a rule above).
+ * NOTE: the default cannot safely be changed in Chrome and Safari on OS X.
+ */
+/* line 408, C:/Users/vladmihalca/Downloads/Parallax-on-the-Web-DevTips--master/css/normalize.scss */
+optgroup {
+  font-weight: bold; }
+
+/* Tables
+   ========================================================================== */
+/**
+ * Remove most spacing between table cells.
+ */
+/* line 419, C:/Users/vladmihalca/Downloads/Parallax-on-the-Web-DevTips--master/css/normalize.scss */
+table {
+  border-collapse: collapse;
+  border-spacing: 0; }
+
+/* line 425, C:/Users/vladmihalca/Downloads/Parallax-on-the-Web-DevTips--master/css/normalize.scss */
+td,
+th {
+  padding: 0; }
+
+/*
+* Skeleton V2.0.4
+* Copyright 2014, Dave Gamache
+* www.getskeleton.com
+* Free to use under the MIT license.
+* http://www.opensource.org/licenses/mit-license.php
+* 12/29/2014
+*/
+/* Table of contents
+––––––––––––––––––––––––––––––––––––––––––––––––––
+- Grid
+- Base Styles
+- Typography
+- Links
+- Buttons
+- Forms
+- Lists
+- Code
+- Tables
+- Spacing
+- Utilities
+- Clearing
+- Media Queries
+*/
+/* Grid
+–––––––––––––––––––––––––––––––––––––––––––––––––– */
+/* line 31, C:/Users/vladmihalca/Downloads/Parallax-on-the-Web-DevTips--master/css/skeleton.scss */
+.container {
+  position: relative;
+  width: 100%;
+  max-width: 960px;
+  margin: 0 auto;
+  padding: 0 20px;
+  box-sizing: border-box; }
+
+/* line 39, C:/Users/vladmihalca/Downloads/Parallax-on-the-Web-DevTips--master/css/skeleton.scss */
+.column,
+.columns {
+  width: 100%;
+  float: left;
+  box-sizing: border-box; }
+
+/* For devices larger than 400px */
+@media (min-width: 400px) {
+  /* line 46, C:/Users/vladmihalca/Downloads/Parallax-on-the-Web-DevTips--master/css/skeleton.scss */
+  .container {
+    width: 85%;
+    padding: 0; } }
+
+/* For devices larger than 550px */
+@media (min-width: 550px) {
+  /* line 53, C:/Users/vladmihalca/Downloads/Parallax-on-the-Web-DevTips--master/css/skeleton.scss */
+  .container {
+    width: 80%; }
+  /* line 56, C:/Users/vladmihalca/Downloads/Parallax-on-the-Web-DevTips--master/css/skeleton.scss */
+  .column,
+  .columns {
+    margin-left: 4%; }
+  /* line 59, C:/Users/vladmihalca/Downloads/Parallax-on-the-Web-DevTips--master/css/skeleton.scss */
+  .column:first-child,
+  .columns:first-child {
+    margin-left: 0; }
+  /* line 63, C:/Users/vladmihalca/Downloads/Parallax-on-the-Web-DevTips--master/css/skeleton.scss */
+  .one.column,
+  .one.columns {
+    width: 4.66666666667%; }
+  /* line 64, C:/Users/vladmihalca/Downloads/Parallax-on-the-Web-DevTips--master/css/skeleton.scss */
+  .two.columns {
+    width: 13.3333333333%; }
+  /* line 65, C:/Users/vladmihalca/Downloads/Parallax-on-the-Web-DevTips--master/css/skeleton.scss */
+  .three.columns {
+    width: 22%; }
+  /* line 66, C:/Users/vladmihalca/Downloads/Parallax-on-the-Web-DevTips--master/css/skeleton.scss */
+  .four.columns {
+    width: 30.6666666667%; }
+  /* line 67, C:/Users/vladmihalca/Downloads/Parallax-on-the-Web-DevTips--master/css/skeleton.scss */
+  .five.columns {
+    width: 39.3333333333%; }
+  /* line 68, C:/Users/vladmihalca/Downloads/Parallax-on-the-Web-DevTips--master/css/skeleton.scss */
+  .six.columns {
+    width: 48%; }
+  /* line 69, C:/Users/vladmihalca/Downloads/Parallax-on-the-Web-DevTips--master/css/skeleton.scss */
+  .seven.columns {
+    width: 56.6666666667%; }
+  /* line 70, C:/Users/vladmihalca/Downloads/Parallax-on-the-Web-DevTips--master/css/skeleton.scss */
+  .eight.columns {
+    width: 65.3333333333%; }
+  /* line 71, C:/Users/vladmihalca/Downloads/Parallax-on-the-Web-DevTips--master/css/skeleton.scss */
+  .nine.columns {
+    width: 74.0%; }
+  /* line 72, C:/Users/vladmihalca/Downloads/Parallax-on-the-Web-DevTips--master/css/skeleton.scss */
+  .ten.columns {
+    width: 82.6666666667%; }
+  /* line 73, C:/Users/vladmihalca/Downloads/Parallax-on-the-Web-DevTips--master/css/skeleton.scss */
+  .eleven.columns {
+    width: 91.3333333333%; }
+  /* line 74, C:/Users/vladmihalca/Downloads/Parallax-on-the-Web-DevTips--master/css/skeleton.scss */
+  .twelve.columns {
+    width: 100%;
+    margin-left: 0; }
+  /* line 76, C:/Users/vladmihalca/Downloads/Parallax-on-the-Web-DevTips--master/css/skeleton.scss */
+  .one-third.column {
+    width: 30.6666666667%; }
+  /* line 77, C:/Users/vladmihalca/Downloads/Parallax-on-the-Web-DevTips--master/css/skeleton.scss */
+  .two-thirds.column {
+    width: 65.3333333333%; }
+  /* line 79, C:/Users/vladmihalca/Downloads/Parallax-on-the-Web-DevTips--master/css/skeleton.scss */
+  .one-half.column {
+    width: 48%; }
+  /* Offsets */
+  /* line 83, C:/Users/vladmihalca/Downloads/Parallax-on-the-Web-DevTips--master/css/skeleton.scss */
+  .offset-by-one.column,
+  .offset-by-one.columns {
+    margin-left: 8.66666666667%; }
+  /* line 85, C:/Users/vladmihalca/Downloads/Parallax-on-the-Web-DevTips--master/css/skeleton.scss */
+  .offset-by-two.column,
+  .offset-by-two.columns {
+    margin-left: 17.3333333333%; }
+  /* line 87, C:/Users/vladmihalca/Downloads/Parallax-on-the-Web-DevTips--master/css/skeleton.scss */
+  .offset-by-three.column,
+  .offset-by-three.columns {
+    margin-left: 26%; }
+  /* line 89, C:/Users/vladmihalca/Downloads/Parallax-on-the-Web-DevTips--master/css/skeleton.scss */
+  .offset-by-four.column,
+  .offset-by-four.columns {
+    margin-left: 34.6666666667%; }
+  /* line 91, C:/Users/vladmihalca/Downloads/Parallax-on-the-Web-DevTips--master/css/skeleton.scss */
+  .offset-by-five.column,
+  .offset-by-five.columns {
+    margin-left: 43.3333333333%; }
+  /* line 93, C:/Users/vladmihalca/Downloads/Parallax-on-the-Web-DevTips--master/css/skeleton.scss */
+  .offset-by-six.column,
+  .offset-by-six.columns {
+    margin-left: 52%; }
+  /* line 95, C:/Users/vladmihalca/Downloads/Parallax-on-the-Web-DevTips--master/css/skeleton.scss */
+  .offset-by-seven.column,
+  .offset-by-seven.columns {
+    margin-left: 60.6666666667%; }
+  /* line 97, C:/Users/vladmihalca/Downloads/Parallax-on-the-Web-DevTips--master/css/skeleton.scss */
+  .offset-by-eight.column,
+  .offset-by-eight.columns {
+    margin-left: 69.3333333333%; }
+  /* line 99, C:/Users/vladmihalca/Downloads/Parallax-on-the-Web-DevTips--master/css/skeleton.scss */
+  .offset-by-nine.column,
+  .offset-by-nine.columns {
+    margin-left: 78.0%; }
+  /* line 101, C:/Users/vladmihalca/Downloads/Parallax-on-the-Web-DevTips--master/css/skeleton.scss */
+  .offset-by-ten.column,
+  .offset-by-ten.columns {
+    margin-left: 86.6666666667%; }
+  /* line 103, C:/Users/vladmihalca/Downloads/Parallax-on-the-Web-DevTips--master/css/skeleton.scss */
+  .offset-by-eleven.column,
+  .offset-by-eleven.columns {
+    margin-left: 95.3333333333%; }
+  /* line 106, C:/Users/vladmihalca/Downloads/Parallax-on-the-Web-DevTips--master/css/skeleton.scss */
+  .offset-by-one-third.column,
+  .offset-by-one-third.columns {
+    margin-left: 34.6666666667%; }
+  /* line 108, C:/Users/vladmihalca/Downloads/Parallax-on-the-Web-DevTips--master/css/skeleton.scss */
+  .offset-by-two-thirds.column,
+  .offset-by-two-thirds.columns {
+    margin-left: 69.3333333333%; }
+  /* line 111, C:/Users/vladmihalca/Downloads/Parallax-on-the-Web-DevTips--master/css/skeleton.scss */
+  .offset-by-one-half.column,
+  .offset-by-one-half.columns {
+    margin-left: 52%; } }
+
+/* Base Styles
+–––––––––––––––––––––––––––––––––––––––––––––––––– */
+/* NOTE
+html is set to 62.5% so that all the REM measurements throughout Skeleton
+are based on 10px sizing. So basically 1.5rem = 15px :) */
+/* line 121, C:/Users/vladmihalca/Downloads/Parallax-on-the-Web-DevTips--master/css/skeleton.scss */
+html {
+  font-size: 62.5%; }
+
+/* line 123, C:/Users/vladmihalca/Downloads/Parallax-on-the-Web-DevTips--master/css/skeleton.scss */
+body {
+  font-size: 1.5em;
+  /* currently ems cause chrome bug misinterpreting rems on body element */
+  line-height: 1.6;
+  font-weight: 400;
+  font-family: "Raleway", "HelveticaNeue", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  color: #222; }
+
+/* Typography
+–––––––––––––––––––––––––––––––––––––––––––––––––– */
+/* line 133, C:/Users/vladmihalca/Downloads/Parallax-on-the-Web-DevTips--master/css/skeleton.scss */
+h1, h2, h3, h4, h5, h6 {
+  margin-top: 0;
+  margin-bottom: 2rem;
+  font-weight: 300; }
+
+/* line 137, C:/Users/vladmihalca/Downloads/Parallax-on-the-Web-DevTips--master/css/skeleton.scss */
+h1 {
+  font-size: 4.0rem;
+  line-height: 1.2;
+  letter-spacing: -.1rem; }
+
+/* line 138, C:/Users/vladmihalca/Downloads/Parallax-on-the-Web-DevTips--master/css/skeleton.scss */
+h2 {
+  font-size: 3.6rem;
+  line-height: 1.25;
+  letter-spacing: -.1rem; }
+
+/* line 139, C:/Users/vladmihalca/Downloads/Parallax-on-the-Web-DevTips--master/css/skeleton.scss */
+h3 {
+  font-size: 3.0rem;
+  line-height: 1.3;
+  letter-spacing: -.1rem; }
+
+/* line 140, C:/Users/vladmihalca/Downloads/Parallax-on-the-Web-DevTips--master/css/skeleton.scss */
+h4 {
+  font-size: 2.4rem;
+  line-height: 1.35;
+  letter-spacing: -.08rem; }
+
+/* line 141, C:/Users/vladmihalca/Downloads/Parallax-on-the-Web-DevTips--master/css/skeleton.scss */
+h5 {
+  font-size: 1.8rem;
+  line-height: 1.5;
+  letter-spacing: -.05rem; }
+
+/* line 142, C:/Users/vladmihalca/Downloads/Parallax-on-the-Web-DevTips--master/css/skeleton.scss */
+h6 {
+  font-size: 1.5rem;
+  line-height: 1.6;
+  letter-spacing: 0; }
+
+/* Larger than phablet */
+@media (min-width: 550px) {
+  /* line 146, C:/Users/vladmihalca/Downloads/Parallax-on-the-Web-DevTips--master/css/skeleton.scss */
+  h1 {
+    font-size: 5.0rem; }
+  /* line 147, C:/Users/vladmihalca/Downloads/Parallax-on-the-Web-DevTips--master/css/skeleton.scss */
+  h2 {
+    font-size: 4.2rem; }
+  /* line 148, C:/Users/vladmihalca/Downloads/Parallax-on-the-Web-DevTips--master/css/skeleton.scss */
+  h3 {
+    font-size: 3.6rem; }
+  /* line 149, C:/Users/vladmihalca/Downloads/Parallax-on-the-Web-DevTips--master/css/skeleton.scss */
+  h4 {
+    font-size: 3.0rem; }
+  /* line 150, C:/Users/vladmihalca/Downloads/Parallax-on-the-Web-DevTips--master/css/skeleton.scss */
+  h5 {
+    font-size: 2.4rem; }
+  /* line 151, C:/Users/vladmihalca/Downloads/Parallax-on-the-Web-DevTips--master/css/skeleton.scss */
+  h6 {
+    font-size: 1.5rem; } }
+
+/* line 154, C:/Users/vladmihalca/Downloads/Parallax-on-the-Web-DevTips--master/css/skeleton.scss */
+p {
+  margin-top: 0; }
+
+/* Links
+–––––––––––––––––––––––––––––––––––––––––––––––––– */
+/* line 160, C:/Users/vladmihalca/Downloads/Parallax-on-the-Web-DevTips--master/css/skeleton.scss */
+a {
+  color: #1EAEDB; }
+
+/* line 162, C:/Users/vladmihalca/Downloads/Parallax-on-the-Web-DevTips--master/css/skeleton.scss */
+a:hover {
+  color: #0FA0CE; }
+
+/* Buttons
+–––––––––––––––––––––––––––––––––––––––––––––––––– */
+/* line 172, C:/Users/vladmihalca/Downloads/Parallax-on-the-Web-DevTips--master/css/skeleton.scss */
+.button,
+button,
+input[type="submit"],
+input[type="reset"],
+input[type="button"] {
+  display: inline-block;
+  height: 38px;
+  padding: 0 30px;
+  color: #555;
+  text-align: center;
+  font-size: 11px;
+  font-weight: 600;
+  line-height: 38px;
+  letter-spacing: .1rem;
+  text-transform: uppercase;
+  text-decoration: none;
+  white-space: nowrap;
+  background-color: transparent;
+  border-radius: 4px;
+  border: 1px solid #bbb;
+  cursor: pointer;
+  box-sizing: border-box; }
+
+/* line 199, C:/Users/vladmihalca/Downloads/Parallax-on-the-Web-DevTips--master/css/skeleton.scss */
+.button:hover,
+button:hover,
+input[type="submit"]:hover,
+input[type="reset"]:hover,
+input[type="button"]:hover,
+.button:focus,
+button:focus,
+input[type="submit"]:focus,
+input[type="reset"]:focus,
+input[type="button"]:focus {
+  color: #333;
+  border-color: #888;
+  outline: 0; }
+
+/* line 207, C:/Users/vladmihalca/Downloads/Parallax-on-the-Web-DevTips--master/css/skeleton.scss */
+.button.button-primary,
+button.button-primary,
+input[type="submit"].button-primary,
+input[type="reset"].button-primary,
+input[type="button"].button-primary {
+  color: #FFF;
+  background-color: #33C3F0;
+  border-color: #33C3F0; }
+
+/* line 220, C:/Users/vladmihalca/Downloads/Parallax-on-the-Web-DevTips--master/css/skeleton.scss */
+.button.button-primary:hover,
+button.button-primary:hover,
+input[type="submit"].button-primary:hover,
+input[type="reset"].button-primary:hover,
+input[type="button"].button-primary:hover,
+.button.button-primary:focus,
+button.button-primary:focus,
+input[type="submit"].button-primary:focus,
+input[type="reset"].button-primary:focus,
+input[type="button"].button-primary:focus {
+  color: #FFF;
+  background-color: #1EAEDB;
+  border-color: #1EAEDB; }
+
+/* Forms
+–––––––––––––––––––––––––––––––––––––––––––––––––– */
+/* line 236, C:/Users/vladmihalca/Downloads/Parallax-on-the-Web-DevTips--master/css/skeleton.scss */
+input[type="email"],
+input[type="number"],
+input[type="search"],
+input[type="text"],
+input[type="tel"],
+input[type="url"],
+input[type="password"],
+textarea,
+select {
+  height: 38px;
+  padding: 6px 10px;
+  /* The 6px vertically centers text on FF, ignored by Webkit */
+  background-color: #fff;
+  border: 1px solid #D1D1D1;
+  border-radius: 4px;
+  box-shadow: none;
+  box-sizing: border-box; }
+
+/* Removes awkward default styles on some inputs for iOS */
+/* line 252, C:/Users/vladmihalca/Downloads/Parallax-on-the-Web-DevTips--master/css/skeleton.scss */
+input[type="email"],
+input[type="number"],
+input[type="search"],
+input[type="text"],
+input[type="tel"],
+input[type="url"],
+input[type="password"],
+textarea {
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none; }
+
+/* line 256, C:/Users/vladmihalca/Downloads/Parallax-on-the-Web-DevTips--master/css/skeleton.scss */
+textarea {
+  min-height: 65px;
+  padding-top: 6px;
+  padding-bottom: 6px; }
+
+/* line 268, C:/Users/vladmihalca/Downloads/Parallax-on-the-Web-DevTips--master/css/skeleton.scss */
+input[type="email"]:focus,
+input[type="number"]:focus,
+input[type="search"]:focus,
+input[type="text"]:focus,
+input[type="tel"]:focus,
+input[type="url"]:focus,
+input[type="password"]:focus,
+textarea:focus,
+select:focus {
+  border: 1px solid #33C3F0;
+  outline: 0; }
+
+/* line 272, C:/Users/vladmihalca/Downloads/Parallax-on-the-Web-DevTips--master/css/skeleton.scss */
+label,
+legend {
+  display: block;
+  margin-bottom: .5rem;
+  font-weight: 600; }
+
+/* line 276, C:/Users/vladmihalca/Downloads/Parallax-on-the-Web-DevTips--master/css/skeleton.scss */
+fieldset {
+  padding: 0;
+  border-width: 0; }
+
+/* line 280, C:/Users/vladmihalca/Downloads/Parallax-on-the-Web-DevTips--master/css/skeleton.scss */
+input[type="checkbox"],
+input[type="radio"] {
+  display: inline; }
+
+/* line 282, C:/Users/vladmihalca/Downloads/Parallax-on-the-Web-DevTips--master/css/skeleton.scss */
+label > .label-body {
+  display: inline-block;
+  margin-left: .5rem;
+  font-weight: normal; }
+
+/* Lists
+–––––––––––––––––––––––––––––––––––––––––––––––––– */
+/* line 290, C:/Users/vladmihalca/Downloads/Parallax-on-the-Web-DevTips--master/css/skeleton.scss */
+ul {
+  list-style: circle inside; }
+
+/* line 292, C:/Users/vladmihalca/Downloads/Parallax-on-the-Web-DevTips--master/css/skeleton.scss */
+ol {
+  list-style: decimal inside; }
+
+/* line 294, C:/Users/vladmihalca/Downloads/Parallax-on-the-Web-DevTips--master/css/skeleton.scss */
+ol, ul {
+  padding-left: 0;
+  margin-top: 0; }
+
+/* line 300, C:/Users/vladmihalca/Downloads/Parallax-on-the-Web-DevTips--master/css/skeleton.scss */
+ul ul,
+ul ol,
+ol ol,
+ol ul {
+  margin: 1.5rem 0 1.5rem 3rem;
+  font-size: 90%; }
+
+/* line 303, C:/Users/vladmihalca/Downloads/Parallax-on-the-Web-DevTips--master/css/skeleton.scss */
+li {
+  margin-bottom: 1rem; }
+
+/* Code
+–––––––––––––––––––––––––––––––––––––––––––––––––– */
+/* line 309, C:/Users/vladmihalca/Downloads/Parallax-on-the-Web-DevTips--master/css/skeleton.scss */
+code {
+  padding: 0.2rem 0.5rem;
+  margin: 0 0.2rem;
+  font-size: 90%;
+  white-space: nowrap;
+  background: #F1F1F1;
+  border: 1px solid #E1E1E1;
+  border-radius: 4px; }
+
+/* line 317, C:/Users/vladmihalca/Downloads/Parallax-on-the-Web-DevTips--master/css/skeleton.scss */
+pre > code {
+  display: block;
+  padding: 1rem 1.5rem;
+  white-space: pre; }
+
+/* Tables
+–––––––––––––––––––––––––––––––––––––––––––––––––– */
+/* line 326, C:/Users/vladmihalca/Downloads/Parallax-on-the-Web-DevTips--master/css/skeleton.scss */
+th,
+td {
+  padding: 12px 15px;
+  text-align: left;
+  border-bottom: 1px solid #E1E1E1; }
+
+/* line 331, C:/Users/vladmihalca/Downloads/Parallax-on-the-Web-DevTips--master/css/skeleton.scss */
+th:first-child,
+td:first-child {
+  padding-left: 0; }
+
+/* line 334, C:/Users/vladmihalca/Downloads/Parallax-on-the-Web-DevTips--master/css/skeleton.scss */
+th:last-child,
+td:last-child {
+  padding-right: 0; }
+
+/* Spacing
+–––––––––––––––––––––––––––––––––––––––––––––––––– */
+/* line 341, C:/Users/vladmihalca/Downloads/Parallax-on-the-Web-DevTips--master/css/skeleton.scss */
+button,
+.button {
+  margin-bottom: 1rem; }
+
+/* line 346, C:/Users/vladmihalca/Downloads/Parallax-on-the-Web-DevTips--master/css/skeleton.scss */
+input,
+textarea,
+select,
+fieldset {
+  margin-bottom: 1.5rem; }
+
+/* line 356, C:/Users/vladmihalca/Downloads/Parallax-on-the-Web-DevTips--master/css/skeleton.scss */
+pre,
+blockquote,
+dl,
+figure,
+table,
+p,
+ul,
+ol,
+form {
+  margin-bottom: 2.5rem; }
+
+/* Utilities
+–––––––––––––––––––––––––––––––––––––––––––––––––– */
+/* line 362, C:/Users/vladmihalca/Downloads/Parallax-on-the-Web-DevTips--master/css/skeleton.scss */
+.u-full-width {
+  width: 100%;
+  box-sizing: border-box; }
+
+/* line 365, C:/Users/vladmihalca/Downloads/Parallax-on-the-Web-DevTips--master/css/skeleton.scss */
+.u-max-full-width {
+  max-width: 100%;
+  box-sizing: border-box; }
+
+/* line 368, C:/Users/vladmihalca/Downloads/Parallax-on-the-Web-DevTips--master/css/skeleton.scss */
+.u-pull-right {
+  float: right; }
+
+/* line 370, C:/Users/vladmihalca/Downloads/Parallax-on-the-Web-DevTips--master/css/skeleton.scss */
+.u-pull-left {
+  float: left; }
+
+/* Misc
+–––––––––––––––––––––––––––––––––––––––––––––––––– */
+/* line 376, C:/Users/vladmihalca/Downloads/Parallax-on-the-Web-DevTips--master/css/skeleton.scss */
+hr {
+  margin-top: 3rem;
+  margin-bottom: 3.5rem;
+  border-width: 0;
+  border-top: 1px solid #E1E1E1; }
+
+/* Clearing
+–––––––––––––––––––––––––––––––––––––––––––––––––– */
+/* Self Clearing Goodness */
+/* line 389, C:/Users/vladmihalca/Downloads/Parallax-on-the-Web-DevTips--master/css/skeleton.scss */
+.container:after,
+.row:after,
+.u-cf {
+  content: "";
+  display: table;
+  clear: both; }
+
+/* Media Queries
+–––––––––––––––––––––––––––––––––––––––––––––––––– */
+/*
+Note: The best way to structure the use of media queries is to create the queries
+near the relevant code. For example, if you wanted to change the styles for buttons
+on small devices, paste the mobile query code up in the buttons section and style it
+there.
+*/
+/* Larger than mobile */
+/* Larger than phablet (also point when grid becomes active) */
+/* Larger than tablet */
+/* Larger than desktop */
+/* Larger than Desktop HD */
+/* line 3, C:/Users/vladmihalca/Downloads/Parallax-on-the-Web-DevTips--master/css/_layout.sass */
+body {
+  font-family: "Open Sans", sans-serif; }
+
+/* line 6, C:/Users/vladmihalca/Downloads/Parallax-on-the-Web-DevTips--master/css/_layout.sass */
+h1 {
+  color: #444;
+  font-weight: 300;
+  border: 2px solid rgba(255, 102, 45, 0.86);
+  padding: 35px; }
+
+/* line 12, C:/Users/vladmihalca/Downloads/Parallax-on-the-Web-DevTips--master/css/_layout.sass */
+figure {
+  margin: auto;
+  border-radius: 8px 6px 10px 24px; }
+
+/* line 16, C:/Users/vladmihalca/Downloads/Parallax-on-the-Web-DevTips--master/css/_layout.sass */
+.content {
+  position: relative;
+  background: white;
+  margin-bottom: 400px;
+  overflow: hidden; }
+  /* line 22, C:/Users/vladmihalca/Downloads/Parallax-on-the-Web-DevTips--master/css/_layout.sass */
+  .content article {
+    padding: 100px 0;
+    max-width: 640px;
+    margin: 0 auto;
+    text-align: center; }
+
+/* line 28, C:/Users/vladmihalca/Downloads/Parallax-on-the-Web-DevTips--master/css/_layout.sass */
+img {
+  max-width: 100%; }
+
+/* line 36, C:/Users/vladmihalca/Downloads/Parallax-on-the-Web-DevTips--master/css/_layout.sass */
+.bird-box {
+  position: relative;
+  height: 600px;
+  background-image: url(../images/bird-bg.jpg);
+  background-size: auto 600px;
+  background-position: top center;
+  background-attachment: fixed;
+  overflow: hidden; }
+
+/* line 46, C:/Users/vladmihalca/Downloads/Parallax-on-the-Web-DevTips--master/css/_layout.sass */
+.logo {
+  height: 100px;
+  width: 100%;
+  background-image: url(../images/black-bird-logo.svg);
+  background-position: center;
+  background-repeat: no-repeat;
+  position: absolute;
+  top: 50%;
+  margin-top: -50px; }
+
+/* line 57, C:/Users/vladmihalca/Downloads/Parallax-on-the-Web-DevTips--master/css/_layout.sass */
+.fore-bird {
+  width: 960px;
+  height: 733px;
+  background-image: url(../images/fore-bird.png);
+  background-repeat: no-repeat;
+  background-position: right bottom;
+  position: absolute;
+  left: 50%;
+  margin-left: -480px;
+  top: 380px; }
+
+/* line 69, C:/Users/vladmihalca/Downloads/Parallax-on-the-Web-DevTips--master/css/_layout.sass */
+.back-bird {
+  width: 960px;
+  height: 298px;
+  background-image: url(../images/back-bird.png);
+  background-repeat: no-repeat;
+  background-position: top left;
+  position: absolute;
+  left: 50%;
+  margin-left: -480px; }
+
+/* line 84, C:/Users/vladmihalca/Downloads/Parallax-on-the-Web-DevTips--master/css/_layout.sass */
+.clothes-pics {
+  margin-bottom: 100px; }
+  /* line 87, C:/Users/vladmihalca/Downloads/Parallax-on-the-Web-DevTips--master/css/_layout.sass */
+  .clothes-pics figure {
+    margin-bottom: 20px;
+    position: relative;
+    opacity: 0;
+    transform: translateX(30px);
+    transition: all 0.4s ease-in-out;
+    overflow: hidden;
+    cursor: pointer; }
+    /* line 96, C:/Users/vladmihalca/Downloads/Parallax-on-the-Web-DevTips--master/css/_layout.sass */
+    .clothes-pics figure.is-showing {
+      opacity: 1;
+      transform: translateX(0px); }
+    /* line 100, C:/Users/vladmihalca/Downloads/Parallax-on-the-Web-DevTips--master/css/_layout.sass */
+    .clothes-pics figure img {
+      display: block;
+      transform: scale(1);
+      transition: all 0.3s ease-in-out; }
+    /* line 106, C:/Users/vladmihalca/Downloads/Parallax-on-the-Web-DevTips--master/css/_layout.sass */
+    .clothes-pics figure:hover figcaption {
+      left: 0%; }
+    /* line 109, C:/Users/vladmihalca/Downloads/Parallax-on-the-Web-DevTips--master/css/_layout.sass */
+    .clothes-pics figure:hover img {
+      transform: scale(1.1); }
+  /* line 112, C:/Users/vladmihalca/Downloads/Parallax-on-the-Web-DevTips--master/css/_layout.sass */
+  .clothes-pics figcaption {
+    position: absolute;
+    bottom: 10px;
+    left: -100%;
+    background: rgba(255, 102, 45, 0.86);
+    color: white;
+    padding: 2px 8px;
+    font-size: 11px;
+    transition: all 0.3s ease-in-out; }
+
+/* line 126, C:/Users/vladmihalca/Downloads/Parallax-on-the-Web-DevTips--master/css/_layout.sass */
+.large-window {
+  height: 640px;
+  background-image: url(../images/model2.jpg);
+  background-position: center 0px;
+  background-repeat: repeat-y;
+  background-attachment: fixed;
+  margin-top: 100px;
+  margin-bottom: 100px;
+  border-radius: 50%;
+  position: relative; }
+  /* line 138, C:/Users/vladmihalca/Downloads/Parallax-on-the-Web-DevTips--master/css/_layout.sass */
+  .large-window .window-tint {
+    background-color: rgba(0, 0, 0, 0.5);
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    opacity: 0; }
+  /* line 152, C:/Users/vladmihalca/Downloads/Parallax-on-the-Web-DevTips--master/css/_layout.sass */
+  .large-window .promo-text {
+    color: white;
+    font-weight: 100;
+    font-size: 50px;
+    line-height: 1.2; }
+    /* line 158, C:/Users/vladmihalca/Downloads/Parallax-on-the-Web-DevTips--master/css/_layout.sass */
+    .large-window .promo-text strong {
+      display: block;
+      font-size: 30px; }
+    /* line 162, C:/Users/vladmihalca/Downloads/Parallax-on-the-Web-DevTips--master/css/_layout.sass */
+    .large-window .promo-text span {
+      font-weight: 300;
+      font-size: 18px;
+      font-style: italic;
+      color: rgba(255, 255, 255, 0.6); }
+    /* line 169, C:/Users/vladmihalca/Downloads/Parallax-on-the-Web-DevTips--master/css/_layout.sass */
+    .large-window .promo-text .window-cta {
+      font-size: 20px;
+      text-decoration: none;
+      color: white;
+      border: 1px solid white;
+      padding: 10px 20px;
+      transition: all 0.3s ease-in-out; }
+      /* line 177, C:/Users/vladmihalca/Downloads/Parallax-on-the-Web-DevTips--master/css/_layout.sass */
+      .large-window .promo-text .window-cta:hover {
+        background: white;
+        color: black; }
+
+/* line 184, C:/Users/vladmihalca/Downloads/Parallax-on-the-Web-DevTips--master/css/_layout.sass */
+.blog-posts {
+  margin-top: 100px; }
+  /* line 187, C:/Users/vladmihalca/Downloads/Parallax-on-the-Web-DevTips--master/css/_layout.sass */
+  .blog-posts .post {
+    border: 1px solid #e1e1e1;
+    padding: 20px 20px 0;
+    background: white;
+    position: relative; }
+  /* line 193, C:/Users/vladmihalca/Downloads/Parallax-on-the-Web-DevTips--master/css/_layout.sass */
+  .blog-posts .post-1 {
+    transform: translate(100px, 20px); }
+  /* line 196, C:/Users/vladmihalca/Downloads/Parallax-on-the-Web-DevTips--master/css/_layout.sass */
+  .blog-posts .post-2 {
+    z-index: 2; }
+  /* line 199, C:/Users/vladmihalca/Downloads/Parallax-on-the-Web-DevTips--master/css/_layout.sass */
+  .blog-posts .post-3 {
+    transform: translate(-100px, 20px); }
+
+/* line 205, C:/Users/vladmihalca/Downloads/Parallax-on-the-Web-DevTips--master/css/_layout.sass */
+footer {
+  background: black;
+  color: rgba(255, 102, 45, 0.86);
+  padding: 40px 0;
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  z-index: -1; }
+  /* line 214, C:/Users/vladmihalca/Downloads/Parallax-on-the-Web-DevTips--master/css/_layout.sass */
+  footer .footer-stuff {
+    max-width: 640px;
+    margin: 0 auto; }
+  /* line 218, C:/Users/vladmihalca/Downloads/Parallax-on-the-Web-DevTips--master/css/_layout.sass */
+  footer a {
+    color: rgba(255, 102, 45, 0.86); }
+  /* line 221, C:/Users/vladmihalca/Downloads/Parallax-on-the-Web-DevTips--master/css/_layout.sass */
+  footer input {
+    color: #666; }
+
+/*# sourceMappingURL=style.css.map */
